@@ -1,0 +1,71 @@
+<view class="user-info">
+	<image class="user-info-img" src="{{suerimg}}"></image>
+	<text class="user-info-nick   ">{{usermick}}</text>
+</view>
+
+
+
+
+<view class="cth-bju">
+
+	<view class="jq22-me-list column-list">
+		<view class="jq22-flex b-line">
+			<image class="jq22-img-sml" src="../image/d1.png"></image>
+			<view class="jq22-flex-box ">
+				<text>我的订单</text>
+			</view>
+			<image class="jq22-img-sml " src="../image/next.png"></image>
+			<view class="jq22-arrow "></view>
+		</view>
+	</view>
+
+	
+	<view class="jq22-me-list column-list">
+		<view class="jq22-flex b-line">
+			<image class="jq22-img-sml" src="../image/wxx.png"></image>
+			<view class="jq22-flex-box">
+				<text>我的消息</text>
+			</view>
+			<image class="jq22-img-sml " src="../image/next.png"></image>
+			<view class="jq22-arrow"></view>
+		</view>
+	</view>
+
+
+	<view class="jq22-me-list column-list">
+		<view class="jq22-flex b-line">
+			<image class="jq22-img-sml" src="../image/wyhq.png"></image>
+			<view class="jq22-flex-box">
+				<text>优惠券</text>
+			</view>
+			<image class="jq22-img-sml " src="../image/next.png"></image>
+			<view class="jq22-arrow"></view>
+		</view>
+	</view>
+
+
+	<view class="jq22-me-list column-list">
+		<view class="jq22-flex b-line">
+			<image class="jq22-img-sml" src="../image/wyhq2.png"></image>
+			<view class="jq22-flex-box">
+				<text>开具发票</text>
+			</view>
+			<image class="jq22-img-sml " src="../image/next.png"></image>
+			<view class="jq22-arrow"></view>
+		</view>
+	</view>
+
+	
+	<view class="jq22-me-list column-list">
+		<view class="jq22-flex b-line">
+			<image class="jq22-img-sml" src="../image/wrj.png"></image>
+			<view class="jq22-flex-box">
+				<text>客服电话</text>
+			</view>
+			<image class="jq22-img-sml " src="../image/next.png"></image>
+			<view class="jq22-arrow"></view>
+		</view>
+	</view>
+
+
+</view>

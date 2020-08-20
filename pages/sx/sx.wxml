@@ -1,0 +1,65 @@
+
+
+<view class="jq-bj" >
+	<view class="jq22-me-list column-list">
+		<view class="jq22-flex b-line">
+			<image class="jq22-img-sml" src="../image/dt.png"></image>
+		  <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+    <view class="picker">
+      地点：{{region[0]}}，{{region[1]}}，{{region[2]}}
+    </view>
+  </picker>
+      <view class="jq22-arrow"></view>
+		</view>
+	</view>
+</view>
+
+
+<view class="jq-bj" wx:for="{{pickAry}}" wx:for-item="a" wx:for-index="idx">
+	<view class="jq22-me-list column-list">
+		<view class="jq22-flex b-line">
+			<image class="jq22-img-sml" src="{{a.ditu}}"></image>
+			<view class="jq22-flex-box">
+				<text>{{a.title}}</text>
+			</view>
+			<picker range="{{a.options}}" bindchange="changeOption" data-pos="{{idx}}">
+				<view>{{a.options[a.index]}}</view>
+			</picker>
+			<view class="jq22-arrow"></view>
+		</view>
+	</view>
+</view>
+
+<view class="jq-bj" >
+	<view class="jq22-me-list column-list">
+		<view class="jq22-flex b-line">
+			<image class="jq22-img-sml" src="../image/rq.png"></image>
+		  <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+    <view class="picker">
+      选择日期: {{date}}
+    </view>
+			  </picker>
+      <view class="jq22-arrow"></view>
+		</view>
+	</view>
+</view>
+
+<view class="jq-bj" >
+	<view class="jq22-me-list column-list">
+		<view class="jq22-flex b-line">
+			<image class="jq22-img-sml" src="../image/sj.png"></image>
+		 <picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="bindTimeChange">
+    <view class="picker">
+      选择时间: {{time}}
+    </view>
+  </picker>
+      <view class="jq22-arrow"></view>
+		</view>
+	</view>
+</view>
+
+
+<view class="row">
+	<button class="cth-a" type="primary" plain="true">重置</button>
+	<button type="primary">确认</button>
+</view>

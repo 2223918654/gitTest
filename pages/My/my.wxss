@@ -1,0 +1,67 @@
+page {
+  background-color: rgb(235, 232, 232);
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  align-items: center;
+  padding: 20px;
+}
+
+.user-info-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 5px;
+
+}
+
+
+.column-list {
+  border-bottom: 1px solid rgb(235, 230, 230);
+} 
+
+
+.cth-bju {
+  background-color: white;
+  margin-top: 5px;
+  height: 100%;
+  width: 100%;
+
+}
+
+.jq22-img-sml {
+  width: 35px;
+  height: 35px;
+  margin-right: 0.5rem;
+
+}
+
+.jq22-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 15px;
+  position: relative;
+}
+
+.jq22-flex-box {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  min-width: 0;
+  font-size: 14px;
+  color: #333;
+}
+.jq22-arrow {
+  position: relative;
+  padding-right: 0.8rem;
+}
+.b-line {
+  position: relative;
+}

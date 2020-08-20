@@ -1,0 +1,40 @@
+
+
+
+<view class="cth-mianban-a">
+<view class="cth-mianban">
+
+
+<view class="column-list">
+<text class="cth-text">时间</text>
+<input value="2020-08-04"></input>
+</view>
+
+<view class="column-list">
+<text class="cth-text">时长/小时</text>
+<input value="3"></input>
+</view>
+
+<view class="column-list">
+<text class="cth-text">金额</text>
+<input value="100"></input>
+</view>
+
+<view class="column-list">
+<text class="cth-text">工种</text>
+<input value="搬运工"></input>
+</view>
+
+<view class="column-list">
+<text class="cth-text">商家</text>
+<input value="福建电力"></input>
+</view>
+
+<view class="column-list-a">
+<text class="cth-text">商家给与评价</text>
+<input value="5星"></input>
+</view>
+
+</view>
+</view>
+

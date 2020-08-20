@@ -1,0 +1,63 @@
+<!--index.wxml-->
+
+<view class="jq22-search ">
+	<view class="jq22-search-box jq22-flex">
+		<image class="jq22-img" src="../image/ss.png"></image>
+		<input class="jq22-search-box" type="text" placeholder="搜索工作"></input>
+	</view>
+</view>
+
+<view class="column-list ">
+	<view class="column-list-a  ">
+	</view>
+</view>
+
+<view class="sue-rbtu">
+	<swiper autoplay="true" interval="5000" indicator-dots="true">
+		<block wx:for="{{swiperimgary}}">
+			<swiper-item>
+				<image class="swiper-img" mode="widthFix" src="{{item}}"></image>
+			</swiper-item>
+		</block>
+	</swiper>
+</view>
+<view class="jju">
+	<view class="danzi">
+		<view class='common-text jq22-flex '>
+			<view class='common-text-left'><text>推荐</text></view>
+			<navigator url="/pages/sx/sx">
+				<view class='common-text-right'><text>筛选</text></view>
+			</navigator>
+		</view>
+	</view>
+</view>
+
+
+<view class="common-juli" wx:for="{{baogtoAry}}" wx:for-item="a">
+<view class="cth-bjs">
+	<view class='common-text jq22-flex '>
+		<view class='common-text-left'><text>{{a.kait}}</text></view>
+		<view class='common-text-right'><text class="common-cth-text">{{a.renshu}}</text></view>
+			</view>
+			</view>
+	<view class='bjs-dd jq22-flex'>
+		<view class='common-text-left-sj'><text>{{a.didiang}}</text></view>
+	</view>
+	<view class='common-text-cth jq22-flex '>
+		<view class='common-text-left-sj '><text> {{a.time}}\n</text>
+			<view class='text-user'>
+				<image class="common-img" src="{{a.img}}"></image>
+				<text> {{a.user}}</text>
+			</view>
+		</view>
+	<view class="row ">
+			<view class="detali-btn-cth ">
+				<button class="detali-btn-cth " style="width:90px">抢单</button>
+			</view>
+		</view>
+	</view>
+</view>
+
+<van-button type="primary">主要按钮</van-button>
+
+

@@ -1,0 +1,31 @@
+
+
+
+
+<view class="cth-bju">
+<navigator url="/pages/dt/dt"> 
+	<view class="jq22-me-list column-list">
+		<view class="jq22-flex b-line">
+			<view class="jq22-flex-box">
+				<text>搬水泥</text>
+			</view>
+			<image class="jq22-img-sml cth-text-a" src="../image/next.png"></image>
+			<view class="jq22-arrow"></view>
+		</view>
+	</view>
+  </navigator>
+	</view>
+<!-- <view class="cth-mianban-a">
+<view class="cth-mianban">
+<navigator url="/pages/dt/dt"> 
+<view class="column-list">
+<text class="cth-text">搬水泥</text>
+<image class="cth-text-a" src="../image/next.png"></image>
+</view>
+</navigator>
+
+
+
+</view>
+</view> -->
+

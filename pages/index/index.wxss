@@ -1,0 +1,145 @@
+page {
+  background-color: rgb(235, 232, 232);
+}
+
+.jq22-search {
+  padding: 0.5rem;
+  background-color: white;
+}
+
+.jq22-img {
+
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.jq22-search-box {
+  background: rgb(226, 226, 226);
+  border-radius: 3px;
+  position: relative;
+  display: flex;
+  margin-top: 5px;
+  
+}
+
+.swiper-img {
+  width: 100%;
+  height: 100%;
+}
+
+.sue-rbtu {
+  margin-top: 10px;
+  background-color: white;
+}
+
+.column-list {
+
+  background-color: white;
+  width: 100%;
+  height: 40px;
+}
+
+.column-list-a {
+  background: rgb(61, 59, 59);
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}
+
+.common-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+}
+
+
+.common-text-left {
+  font-size: 20px;
+  color: #333;
+  margin-left: 5px;
+  margin-right: 80px;
+}
+
+.common-text-right {
+  font-size: 15px;
+  font-weight: 400;
+  color: #959595;
+  margin-right: 10px;
+}
+
+.jju {
+  margin-top: 5px;
+  width: 100%;
+  height: 40px;
+  background-color: white;
+}
+
+.common-juli {
+  margin-top: 5px;
+}
+
+.jq22-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 5px;
+  position: relative;
+}
+
+.common-text-left-sj {
+  font-size: 15px;
+  color: #333;
+  margin-left: 5px;
+
+}
+
+.common-img {
+  width: 20px;
+  height: 20px;
+}
+
+.detali-btn-cth {
+  background-color: coral;
+  position: absolute; /* 要约束所在位置的子元素的位置要设置成绝对 */
+  right: 0; /* 靠右调节 */  
+  width: 10rpx;
+  height: 80%;
+ color: white;
+}
+.common-text-left-sj-a {
+  font-size: 15px;
+  color: #333;
+  margin-left: 5px;
+}
+.row{
+  height: 100%;
+  display: flex;
+  /*row 横向  column 列表  */
+  flex-direction: row;
+  /* 左右居中 */
+  justify-content: center;
+  /* 上下居中 */
+  align-items: center;
+}
+.common-text-cth{
+  width: 100%;
+  height: 60px;
+  background-color: white;
+}
+
+.cth-bjs{
+  width: 100%;
+  height: 40px;
+  background-color: white;
+}
+.bjs-dd{
+  background-color: white;
+}
+.common-cth-text{
+color:coral ;
+}
